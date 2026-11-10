@@ -1,5 +1,10 @@
 # Smart Home Controller
 
+## Group members
+
+- Ömer Kağan Kaplan
+- Emre Kechagia
+
 A Flutter app for **BIM493 Mobile Programming I - Assignment 2**.
 Three simulated smart devices, an English dark dashboard, and interactive controls.
 No real device connection, backend, account, or API key is required. State is kept in memory and resets when the app restarts.
@@ -68,5 +73,6 @@ Tests cover constructor counting, inherited connection behavior, device state tr
 
 See `docs/OOP_NOTES_TR.md` for a Turkish explanation of the design.
 
-Local verification: static analysis clean, 7 tests passed, release web build succeeded, and browser controls checked at mobile size. Android APK compilation was not verified because the local Android SDK reports unaccepted licenses.
+Local verification: static analysis clean, 7 tests passed, release web build succeeded, and browser controls checked at mobile size. Android debug APK compilation, installation, and launch on the Android emulator were also verified.
+
 
